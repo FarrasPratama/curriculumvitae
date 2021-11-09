@@ -1,1 +1,1 @@
-# farraspratama.github.io
+# farraspratama.github.io/curriculumvitae/
