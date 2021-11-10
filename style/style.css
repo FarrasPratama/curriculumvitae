@@ -32,13 +32,10 @@ header{
     left: 2%;
 }
 
-
 .header__flex{
     height: 100vh;
     flex-wrap: wrap-reverse;
 }
-
-
 
 .primary_heading__1{
     font-family: 'Pacifico', cursive;
@@ -57,11 +54,9 @@ header{
     line-height: 1em;
 }
 
-
 .primary_heading__2:hover{
     animation-play-state: paused;
 }
-
 
 @keyframes stoking{
     0%,100%{transform: translateX(0);}
@@ -109,8 +104,6 @@ header{
     color: var(--highlight-color);
 }
 
-
-
 .about{
     margin-top: -20rem;
     padding: 25rem 0 6rem 0;
@@ -141,7 +134,6 @@ header{
     font-weight: bold;
 }
 
-
 .skill_container{
     flex-wrap: wrap;
     padding:  1rem 0;
@@ -150,6 +142,7 @@ header{
 .skill__items{
 margin-bottom: 1rem;
 }
+
 .skill_heading{
   text-decoration: underline;
   font-size: 1.3rem;
@@ -167,6 +160,7 @@ margin-bottom: 1rem;
     position: relative;
     transition: all .3s;
 }
+
 .skills_polygon::after{
     position: absolute;
     content: '';
@@ -183,7 +177,6 @@ margin-bottom: 1rem;
     cursor: pointer;
     transform: translateY(-10px);
 }
-
 
 .some__creativity_text{
     display: inline-block;
@@ -213,7 +206,6 @@ margin-bottom: 1rem;
     transition: all .3s;
     position: relative;
 }
-
 
 .pictures__items:nth-child(1){
     grid-column: 1/1;
@@ -250,8 +242,3 @@ footer{
     text-align: center;
     font-weight: 500;
 }
-
-
-
-
-  
